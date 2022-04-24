@@ -1,9 +1,9 @@
-package com.amos
+package com.amos.recommender
 
 import org.apache.spark.SparkConf
 import org.apache.spark.sql.{DataFrame, SparkSession}
 
-object IF_IDF_DataLoad {
+object TF_IDF_DataLoad {
   // 定义表名和常量
   val MONGODB_MOVIE_COLLECTION = "Movie"
   val CONTENT_MOVIE_RECS = "ContentMovieRecs"
